@@ -8,7 +8,7 @@ terraform {
    backend "s3" {
     bucket = "s3-native-locking222"
     key    = "remote-state-s3nativelocking2"
-    region = "us-east-1"
+    region = "ap-south-1"
     encrypt        = true
     use_lockfile = true
    
